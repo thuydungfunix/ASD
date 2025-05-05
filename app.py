@@ -13,7 +13,7 @@ import numpy as np
 import pickle
 
 # Tải mô hình và scaler
-model = pickle.load(open("logistic_model(1).pkl", "rb"))
+model = pickle.load(open("logistic_asd_model(1).pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.title("🔎 Ứng dụng Sàng Lọc Tự Kỷ (ASD)")
