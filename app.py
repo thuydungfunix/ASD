@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Tải mô hình và scaler
-model = pickle.load(open("logistic_asd_model.pkl", "rb"))
+model = pickle.load(open("logistic_asd_model(1).pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.set_page_config(page_title="Sàng Lọc Tự Kỷ", page_icon="🧠", layout="centered")
